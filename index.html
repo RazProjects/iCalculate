@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iCaculate</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<header><h1><em style="color: #FF0D00">i</em>Caculate</h1></header>
+<div class="container">
+	
+	<div id="display">0</div>
+	<div id="functionalDiv">
+				<button id="backSpace">BackSpace</button>
+				<button id="clear">Clear</button>
+				<button id="equals">Enter</button>
+				
+	</div>
+	<div id="containerDiv">
+		<div id="numbers">
+			
+				<div class="troubleMaker">
+					<button value="1" class="numberButtons">1</button>
+					<button value="2" class="numberButtons">2</button>
+					<button value="3" class="numberButtons">3</button>
+				</div>
+				<div class="troubleMaker">
+					<button value="4" class="numberButtons">4</button>
+					<button value="5" class="numberButtons">5</button>
+					<button value="6" class="numberButtons">6</button>
+				</div>
+				<div class="troubleMaker">
+					<button value="7" class="numberButtons">7</button>
+					<button value="8" class="numberButtons">8</button>
+					<button value="9" class="numberButtons">9</button>
+				</div>
+
+				<div class="troubleMaker">
+					<button value="0" class="footNumberButtons">0</button>
+					<button value="." class="footNumberButtons">.</button>
+				</div>
+		</div>
+			
+		
+		<div id="operators">
+			<div style="display: flex; justify-content: space-around;">
+				<button value="(" class="operatorButtons-paired">(</button>
+				<button value=")" class="operatorButtons-paired">)</button>
+			</div>
+			<button value=" + " class="operatorButtons-alone">+</button>
+			<button value=" - " class="operatorButtons-alone">-</button>
+			<button value=" * " class="operatorButtons-alone">*</button>
+			<button value=" / " class="operatorButtons-alone">/</button>
+		</div>
+		
+	</div>
+</div>
+<footer>
+	<h4>&copy; 2018 Mehathab Shaik</h4>
+</footer>
+<script type="text/javascript" src="./caculate.js"></script>
+</body>
+</html>
