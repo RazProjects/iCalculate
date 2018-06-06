@@ -38,6 +38,9 @@ function justClick(e) {
 };
 
 function evaluate(){
+	expression = expression.replace(/([0-9])([\(])/g, '$1*$2');
+	expression = expression.replace(/([/)])([0-9])/g, '$1*$2');
+	expression = expression.replace(/([)])([(])/g, '$1*$2');
 	expression = eval(expression).toString();
 	//console.log(typeof expression);
 	display.innerHTML= expression;
