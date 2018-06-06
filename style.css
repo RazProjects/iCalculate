@@ -59,12 +59,13 @@ c. #containerDiv
 	height: 60px;
 	line-height: 60px;
 	font-size: 50px;
-	background-color: white;
+	background-color: #f7fff8;
 	margin:20px auto;
 	text-align: left;
 	padding: 2px 20px;
 	border-radius: 5px;
-	border: 3px solid black;
+	border: 3px solid #190001;
+	color: #190001
 }
 
 #functionalDiv{
